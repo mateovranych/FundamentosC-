@@ -1,0 +1,8 @@
+C:\Users\Mateo\source\repos\FundamentosC#\bin\Debug\FundamentosC#.exe.config
+C:\Users\Mateo\source\repos\FundamentosC#\bin\Debug\FundamentosC#.exe
+C:\Users\Mateo\source\repos\FundamentosC#\bin\Debug\FundamentosC#.pdb
+C:\Users\Mateo\source\repos\FundamentosC#\obj\Debug\FundamentosC#.csproj.AssemblyReference.cache
+C:\Users\Mateo\source\repos\FundamentosC#\obj\Debug\FundamentosC#.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mateo\source\repos\FundamentosC#\obj\Debug\FundamentosC#.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\source\repos\FundamentosC#\obj\Debug\FundamentosC#.exe
+C:\Users\Mateo\source\repos\FundamentosC#\obj\Debug\FundamentosC#.pdb
