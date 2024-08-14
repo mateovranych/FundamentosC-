@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FundamentosC_.Models
+{
+	interface IBebidaAcoholica
+	{
+		public int Alcohol { get; set; }
+
+		public void MaxRecomendado();
+		
+	}
+}
