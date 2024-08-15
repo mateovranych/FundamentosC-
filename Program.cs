@@ -9,6 +9,169 @@ class Program
 
 
 
+		double estatura;
+		do
+		{
+			Console.WriteLine("Ingresa estatura: ");
+			estatura = Convert.ToDouble(Console.ReadLine());
+			if (estatura > 1.75)
+			{
+				Console.WriteLine("Debe ser menor a 1.75");
+			}
+
+		} while (estatura > 1.75);
+		{
+		Console.WriteLine("Altura ingresada correctamente");
+
+		};
+
+	
+
+		//int num = 3;
+
+		//while (num < 10) 
+		//{
+		//	Console.WriteLine("Valor actual : {0}", num);
+		//	num++;
+		//}
+		//Console.WriteLine("El bucle ha terminado");
+
+
+
+
+
+		//TypeOf, NameOf y Operador de Coalescencia
+
+		//TYPE OF
+		//Console.WriteLine(typeof(string));
+		//Console.WriteLine(typeof(int));
+		//Console.WriteLine(typeof(bool));
+		//Console.WriteLine(typeof(float));
+		//NAME OF
+		//int edadPersona = 21;
+		//Console.WriteLine(nameof(edadPersona));
+		//string Changename = (nameof(edadPersona));
+		//Console.WriteLine(Changename);
+
+		//OPERADOR DE COALESCENCIA
+		//double? numero1 = 44;
+		//double? numero2 = 15.33;
+		//double numero3;
+
+		//numero3 = numero1 ?? 30.33;
+
+		//Console.WriteLine("El numero es " + numero3);
+
+
+
+
+		//string nombre;
+
+		//Console.WriteLine("Ingrese su nombre completo");
+
+		//nombre = Console.ReadLine();
+		//Console.WriteLine(nombre);
+
+
+		//int edad;
+
+		//Console.WriteLine("Ingrese su edad");
+
+		//edad=int.Parse(Console.ReadLine());
+
+		//Console.WriteLine(edad);
+
+
+		//List<Bar> bars = new List<Bar>()
+		//{ new Bar ("Pacero"),
+		//  new Bar ("Bola 8"),
+		//  new Bar ("Reduvia")
+		//};
+
+		//foreach (Bar bar in bars) 
+		//{
+		//	Console.WriteLine(bar.Nombre);
+		//}		
+
+		/*
+		int promedio = 4;
+
+		if (promedio >= 17)
+		{
+			Console.WriteLine("Excelente");
+		}
+		else if (promedio >= 11) 
+		{
+			Console.WriteLine("Aprobado");
+		}
+		else
+		{
+			if(promedio >= 8)
+			{
+				Console.WriteLine("Puede ir a recuperacion");
+			}
+			else
+			{
+				Console.WriteLine("Desaprobado definitivamente");
+			}
+		}
+
+		*/
+
+
+		/*
+		int nota = 4;
+
+		if ( nota > 6)
+		{
+			Console.WriteLine("Aprobaste");
+		}
+		else if(nota == 6)
+		{
+			Console.WriteLine("Aprobaste de pedo");
+		}
+		else
+		{
+			Console.WriteLine("No aprobaste");
+		}
+
+		*/
+
+
+		//int edad = 18;
+
+		//if (edad >= 18)
+		//{
+		//	Console.WriteLine("Puede conducir");
+		//}
+		//else
+		//{
+		//	Console.WriteLine("No puede conducir es menor de edad");
+		//}
+
+
+
+		//string texto1,texto2;
+		//int numero;
+		//numero = 30;
+		//texto1 = "Prueba";
+		//texto2 = " Concatenacion ";
+
+
+		//Console.WriteLine(texto1 + texto2);
+
+
+		//string resultado = texto1 + texto2 +numero;
+
+		//Console.WriteLine(resultado);
+
+
+		//string miTexto;
+		//miTexto = String.Concat(texto1, texto2);
+		//Console.WriteLine(miTexto);
+
+
+
 		//List<int> numeros = new List<int>() {33,44,11,665,234,624 };
 
 		//for(int x = -1; x <= 999; x++)
