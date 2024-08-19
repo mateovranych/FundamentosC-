@@ -1,4 +1,5 @@
-﻿using FundamentosC_.Models;
+﻿using FundamentosC_.Ejercicios;
+using FundamentosC_.Models;
 using System;
 using System.Collections.Generic;
 
@@ -7,25 +8,59 @@ class Program
 	static void Main(string[] args)
 	{
 
-
-
-		double estatura;
-		do
+		while (true)
 		{
-			Console.WriteLine("Ingresa estatura: ");
-			estatura = Convert.ToDouble(Console.ReadLine());
-			if (estatura > 1.75)
+			Console.WriteLine("Elige un ejercicio para ejecutar:");
+			Console.WriteLine("1. Contar la frecuencia de palabras");
+			Console.WriteLine("2. Almacenar información de productos");
+			Console.WriteLine("3. Diccionario de traducciones");
+			Console.WriteLine("4. Salir");
+			string option = Console.ReadLine();
+
+			switch (option)
 			{
-				Console.WriteLine("Debe ser menor a 1.75");
+				case "1":
+					var ejercicio1 = new EjercicioFrecuenciaPalabras();
+					ejercicio1.Ejecutar();
+					break;
+				case "2":
+					var ejercicio2 = new EjercicioProductoyPrecioDictionary();
+					ejercicio2.Ejercicio();
+					break;
+				//case "3":
+				//	var ejercicio3 = new Ejercicios.Ejercicio3();
+				//	ejercicio3.Ejecutar();
+				//	break;
+				case "4":
+					return;
+				default:
+					Console.WriteLine("Opción no válida.");
+					break;
 			}
 
-		} while (estatura > 1.75);
-		{
-		Console.WriteLine("Altura ingresada correctamente");
+			Console.WriteLine();
+		}
 
-		};
 
-	
+
+
+		//double estatura;
+		//do
+		//{
+		//	Console.WriteLine("Ingresa estatura: ");
+		//	estatura = Convert.ToDouble(Console.ReadLine());
+		//	if (estatura > 1.75)
+		//	{
+		//		Console.WriteLine("Debe ser menor a 1.75");
+		//	}
+
+		//} while (estatura > 1.75);
+		//{
+		//Console.WriteLine("Altura ingresada correctamente");
+
+		//};
+
+
 
 		//int num = 3;
 
